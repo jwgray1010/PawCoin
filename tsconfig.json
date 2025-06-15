@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": false,
+    "jsx": "react-native",
+    "noEmit": true,
+    "isolatedModules": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "types": ["react", "react-native"]
+  },
+  "extends": "expo/tsconfig.base",
+  "include": [
+    "src",
+    "App.js",
+    "app.config.js",
+    "screens",
+    "services",
+    "utils",
+    "wallet"
+  ]
+}
